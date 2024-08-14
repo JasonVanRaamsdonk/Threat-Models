@@ -1,0 +1,16 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "IoT Smart Home",
+    "owner": "Jason van Raamsdonk",
+    "description": "IoT Smart Home Scenario Threat Model DFD",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
