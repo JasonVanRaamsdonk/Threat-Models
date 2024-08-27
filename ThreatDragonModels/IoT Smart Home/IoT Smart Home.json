@@ -32,8 +32,8 @@
                 "text": "Consumer Trust Boundary"
               }
             },
-            "id": "ece18adf-60ce-4db1-b89c-4465b6222bd9",
             "zIndex": -1,
+            "id": "ece18adf-60ce-4db1-b89c-4465b6222bd9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Consumer Trust Boundary",
@@ -57,8 +57,8 @@
                 "text": "IoT Field Gateway Trust Boundary"
               }
             },
-            "id": "e7138c28-f96d-4e08-9f85-9424d366b4e7",
             "zIndex": -1,
+            "id": "e7138c28-f96d-4e08-9f85-9424d366b4e7",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "IoT Field Gateway Trust Boundary",
@@ -82,8 +82,8 @@
                 "text": "IoT Cloud Gateway Trust Boundary"
               }
             },
-            "id": "aaa1cb4b-8c50-44bc-9fd7-724e22de2c68",
             "zIndex": -1,
+            "id": "aaa1cb4b-8c50-44bc-9fd7-724e22de2c68",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "IoT Cloud Gateway Trust Boundary",
@@ -113,8 +113,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "9af99605-6706-4c48-95f7-17d2a9907bd4",
             "zIndex": 1,
+            "id": "9af99605-6706-4c48-95f7-17d2a9907bd4",
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -147,8 +147,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "5db1707c-a8b5-4c76-9e93-eddb689b8107",
             "zIndex": 2,
+            "id": "5db1707c-a8b5-4c76-9e93-eddb689b8107",
             "data": {
               "type": "tm.Process",
               "name": "IoT Field Gateway",
@@ -723,8 +723,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a16cd6a4-1ae9-416a-af4e-43d44b6f70a5",
             "zIndex": 11,
+            "id": "a16cd6a4-1ae9-416a-af4e-43d44b6f70a5",
             "data": {
               "type": "tm.Text",
               "name": "Request",
@@ -747,8 +747,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "1a74ccaa-9ba7-4178-b989-13a296af8a76",
             "zIndex": 12,
+            "id": "1a74ccaa-9ba7-4178-b989-13a296af8a76",
             "data": {
               "type": "tm.Text",
               "name": "Response",
@@ -776,8 +776,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "c496822b-9b74-4f19-b9b1-7471988c6139",
             "zIndex": 13,
+            "id": "c496822b-9b74-4f19-b9b1-7471988c6139",
             "data": {
               "type": "tm.Process",
               "name": "Front End Services",
@@ -808,13 +808,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 14,
             "id": "d57cada4-4e3a-4aae-bd64-c7d5b9b270fe",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -832,13 +832,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 15,
             "id": "e3c0e3ff-ddf9-44d1-96fe-479c834f0cce",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 15
+            }
           },
           {
             "position": {
@@ -861,6 +861,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "id": "7e20dd6c-bd12-461b-8e5a-dec93dbe2dad",
             "data": {
               "type": "tm.Process",
@@ -874,8 +875,7 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 16
+            }
           },
           {
             "position": {
@@ -893,13 +893,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 17,
             "id": "13ddac4a-f5e7-472b-a503-28302fae994b",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 17
+            }
           },
           {
             "position": {
@@ -917,13 +917,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 18,
             "id": "69b78648-d496-4cad-96f5-ef21e4aee9de",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 18
+            }
           },
           {
             "position": {
@@ -946,6 +946,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "id": "3edec821-f9a5-4e34-873a-5d900bb486f3",
             "data": {
               "type": "tm.Process",
@@ -959,8 +960,7 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 19
+            }
           },
           {
             "position": {
@@ -978,13 +978,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 20,
             "id": "5a34a382-5bf5-413e-9e4b-21ac53a4894f",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 20
+            }
           },
           {
             "position": {
@@ -1002,13 +1002,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 21,
             "id": "68803070-7d6a-445b-a692-2ce7d73af5ec",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 21
+            }
           },
           {
             "position": {
@@ -1031,6 +1031,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "id": "a962424f-a608-4111-8c57-370858fffd5e",
             "data": {
               "type": "tm.Process",
@@ -1044,8 +1045,7 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 22
+            }
           },
           {
             "position": {
@@ -1063,13 +1063,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 23,
             "id": "cf02818d-e579-447e-8254-4db6d3b9276f",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 23
+            }
           },
           {
             "position": {
@@ -1087,13 +1087,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 24,
             "id": "b61c68cf-6863-49f7-a774-bace6fe30d0a",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 24
+            }
           },
           {
             "position": {
@@ -1111,13 +1111,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 25,
             "id": "e0af696b-8a73-4641-a5c6-353486fd4cf6",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 25
+            }
           },
           {
             "position": {
@@ -1135,13 +1135,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 26,
             "id": "0a1e86b9-1d1b-4f80-878b-f9ad86ac0699",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 26
+            }
           }
         ]
       }
