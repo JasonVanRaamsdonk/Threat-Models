@@ -94,8 +94,8 @@
           },
           {
             "position": {
-              "x": 1766,
-              "y": 422.00000000000045
+              "x": 1780.25,
+              "y": 420
             },
             "size": {
               "width": 730,
@@ -107,11 +107,61 @@
                 "text": "AWS Zone Trust Boundary"
               }
             },
-            "id": "cb040f15-3025-49e2-af93-9afcc9a0e017",
             "zIndex": -1,
+            "id": "cb040f15-3025-49e2-af93-9afcc9a0e017",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "AWS Zone Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 2229,
+              "y": 32
+            },
+            "size": {
+              "width": 360,
+              "height": 310
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "IoT Field Gateway Trust Boundary"
+              }
+            },
+            "id": "c82712b0-b870-455e-b269-fc7478fb5f2e",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "IoT Field Gateway Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
+              "x": 1728,
+              "y": 17
+            },
+            "size": {
+              "width": 320,
+              "height": 340
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "IoT Device Trust Boundary"
+              }
+            },
+            "id": "95b94de5-b95f-499a-a457-e9da73a07f5e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "IoT Device Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1183,6 +1233,186 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "2305b8d4-cc59-4e07-8717-e9c1b45953a1",
+            "source": {
+              "cell": "f0ca75fb-caf5-4b6e-989e-a28a843055c9"
+            },
+            "target": {
+              "cell": "ca8c9e61-28a2-438d-9289-1be311e9ca58"
+            },
+            "vertices": [
+              {
+                "x": 2460,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "a53b8fa5-c67a-4df5-9bfb-e5f793016937",
+            "source": {
+              "cell": "ca8c9e61-28a2-438d-9289-1be311e9ca58"
+            },
+            "target": {
+              "cell": "f0ca75fb-caf5-4b6e-989e-a28a843055c9"
+            },
+            "vertices": [
+              {
+                "x": 2370,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "018d8d35-0b76-4cb0-8551-d743f4944c5d",
+            "source": {
+              "cell": "b1818bc3-28f5-4322-b2ab-f27c382dee5a"
+            },
+            "target": {
+              "cell": "f0ca75fb-caf5-4b6e-989e-a28a843055c9"
+            },
+            "vertices": [
+              {
+                "x": 2130,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "dc6f54d5-54fd-497a-a7b5-37663c772309",
+            "source": {
+              "cell": "f0ca75fb-caf5-4b6e-989e-a28a843055c9"
+            },
+            "target": {
+              "cell": "b1818bc3-28f5-4322-b2ab-f27c382dee5a"
+            },
+            "vertices": [
+              {
+                "x": 2130,
+                "y": 230
+              }
+            ]
+          },
+          {
             "position": {
               "x": 830,
               "y": 75
@@ -1639,8 +1869,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "9927a73d-b092-4802-ae10-a07b95016ee5",
             "zIndex": 27,
+            "id": "9927a73d-b092-4802-ae10-a07b95016ee5",
             "data": {
               "type": "tm.Process",
               "name": "Data Validation \n& Penetration",
@@ -1671,13 +1901,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 28,
             "id": "a50c4d0b-7ed2-467c-8997-dce417236b6d",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 28
+            }
           },
           {
             "position": {
@@ -1695,13 +1925,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 29,
             "id": "b9940ebb-d818-463a-8c52-0351749caa74",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 29
+            }
           },
           {
             "position": {
@@ -1724,6 +1954,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 30,
             "id": "b11b1295-1eed-4ff4-b4ce-e9ed7f1afd27",
             "data": {
               "type": "tm.Process",
@@ -1737,8 +1968,7 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 30
+            }
           },
           {
             "position": {
@@ -1756,13 +1986,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 31,
             "id": "66447eb6-6fa1-4afb-be2a-47cf0cbe1fc5",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 31
+            }
           },
           {
             "position": {
@@ -1780,13 +2010,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 33,
             "id": "8f433e61-3a24-4e31-bc52-36ea0bace939",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 33
+            }
           },
           {
             "position": {
@@ -1812,8 +2042,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "4be38007-6643-4d2b-9d05-82aa8cf96ae1",
             "zIndex": 34,
+            "id": "4be38007-6643-4d2b-9d05-82aa8cf96ae1",
             "data": {
               "type": "tm.Store",
               "name": "AWS Storage",
@@ -1845,13 +2075,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 35,
             "id": "d119c41f-b34c-48e1-92f5-6ae1393d669c",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 35
+            }
           },
           {
             "position": {
@@ -1869,13 +2099,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 36,
             "id": "22902ec3-b777-443a-8a36-c182f6097a29",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 36
+            }
           },
           {
             "position": {
@@ -1898,6 +2128,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 37,
             "id": "5cd5f85a-d1fd-4bf5-b5fb-4ff70f341552",
             "data": {
               "type": "tm.Process",
@@ -1911,8 +2142,7 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 37
+            }
           },
           {
             "position": {
@@ -1930,13 +2160,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 38,
             "id": "04b318e3-64eb-46e9-b5ea-fa4bac0dd488",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 38
+            }
           },
           {
             "position": {
@@ -1954,13 +2184,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 39,
             "id": "7bf2ddd8-a661-4eee-b438-0d6492beacdb",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
-            },
-            "zIndex": 39
+            }
           },
           {
             "position": {
@@ -1983,6 +2213,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 40,
             "id": "ca8c9e61-28a2-438d-9289-1be311e9ca58",
             "data": {
               "type": "tm.Process",
@@ -1996,8 +2227,7 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 40
+            }
           },
           {
             "position": {
@@ -2015,13 +2245,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 41,
             "id": "e64dcd44-53bc-4fa8-9513-99b903831d33",
             "data": {
               "type": "tm.Text",
               "name": "Response",
               "hasOpenThreats": false
-            },
-            "zIndex": 41
+            }
           },
           {
             "position": {
@@ -2039,13 +2269,306 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 42,
             "id": "2d9feca4-db13-46b1-8099-746257d480aa",
             "data": {
               "type": "tm.Text",
               "name": "Request",
               "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 2304,
+              "y": 96.9999999999998
             },
-            "zIndex": 42
+            "size": {
+              "width": 200,
+              "height": 180
+            },
+            "attrs": {
+              "text": {
+                "text": "IoT Field Gateway"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "f0ca75fb-caf5-4b6e-989e-a28a843055c9",
+            "data": {
+              "type": "tm.Process",
+              "name": "IoT Field Gateway",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 43
+          },
+          {
+            "position": {
+              "x": 2459.75,
+              "y": 347
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Request"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "40556010-29c8-4af3-a244-03ee19956080",
+            "data": {
+              "type": "tm.Text",
+              "name": "Request",
+              "hasOpenThreats": false
+            },
+            "zIndex": 44
+          },
+          {
+            "position": {
+              "x": 2268,
+              "y": 342
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Response"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "13390606-dbcc-4a06-9ec2-c0119d38a578",
+            "data": {
+              "type": "tm.Text",
+              "name": "Response",
+              "hasOpenThreats": false
+            },
+            "zIndex": 45
+          },
+          {
+            "position": {
+              "x": 1824.75,
+              "y": 78.9999999999998
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "IoT Device 1"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "a3ccd265-9616-4902-bf6a-2824fdea67ab",
+            "zIndex": 46,
+            "data": {
+              "type": "tm.Actor",
+              "name": "IoT Device 1",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1824.25,
+              "y": 157
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "IoT Device 2"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "779fa6a5-787c-44a7-b194-998836a1986c",
+            "data": {
+              "type": "tm.Actor",
+              "name": "IoT Device 2",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 47
+          },
+          {
+            "position": {
+              "x": 1824.25,
+              "y": 231.99999999999977
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "IoT Device 3"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "56e03ea6-49a5-4a4b-b537-6a31d13eeb8f",
+            "data": {
+              "type": "tm.Actor",
+              "name": "IoT Device 3",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "zIndex": 48
+          },
+          {
+            "position": {
+              "x": 1808,
+              "y": 70.00000000000006
+            },
+            "size": {
+              "width": 150,
+              "height": 240
+            },
+            "attrs": {
+              "text": {
+                "text": ""
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "b1818bc3-28f5-4322-b2ab-f27c382dee5a",
+            "zIndex": 49,
+            "data": {
+              "type": "tm.Actor",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1764,
+              "y": 32
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "IoT Devices"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "2fea6333-6762-4584-98da-511bc4042885",
+            "zIndex": 50,
+            "data": {
+              "type": "tm.Text",
+              "name": "IoT Devices",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 2089,
+              "y": 216.99999999999977
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Response"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "9f49d75c-e57f-4fcf-91da-2b8138e12f0a",
+            "data": {
+              "type": "tm.Text",
+              "name": "Response",
+              "hasOpenThreats": false
+            },
+            "zIndex": 51
+          },
+          {
+            "position": {
+              "x": 2105.25,
+              "y": 96.9999999999998
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Request"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "af776bf6-8026-4fac-99b4-3cf5409dbd74",
+            "data": {
+              "type": "tm.Text",
+              "name": "Request",
+              "hasOpenThreats": false
+            },
+            "zIndex": 52
           }
         ]
       }
