@@ -34,8 +34,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "2c58db2f-ddf2-4303-8f55-5d4a0e106a2f",
             "zIndex": -1,
+            "id": "2c58db2f-ddf2-4303-8f55-5d4a0e106a2f",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Medical Device Trust Boundary",
@@ -55,8 +55,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "ac25a24e-a069-4125-a3a2-9228e6df4344",
             "zIndex": -1,
+            "id": "ac25a24e-a069-4125-a3a2-9228e6df4344",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -77,8 +77,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9b3bc495-c3e2-4d36-aaaf-186ab16b8e72",
             "zIndex": -1,
+            "id": "9b3bc495-c3e2-4d36-aaaf-186ab16b8e72",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -99,8 +99,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "62eeaa7b-888f-494f-b15e-dbc76a06e7c9",
             "zIndex": -1,
+            "id": "62eeaa7b-888f-494f-b15e-dbc76a06e7c9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -121,8 +121,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "bb2fe333-1e75-46be-ab98-47c25ff5cbb8",
             "zIndex": -1,
+            "id": "bb2fe333-1e75-46be-ab98-47c25ff5cbb8",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -147,8 +147,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "edb8013e-d29e-44b2-94b3-ea56064be9b4",
             "zIndex": 0,
+            "id": "edb8013e-d29e-44b2-94b3-ea56064be9b4",
             "data": {
               "type": "tm.Text",
               "name": "Medical Device Trust Boundary",
@@ -176,6 +176,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -259,7 +260,6 @@
               ]
             },
             "id": "fe36780f-b3d8-45fc-b02b-db861146963d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Smart Implant",
@@ -295,6 +295,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -390,8 +391,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 2
+            }
           },
           {
             "position": {
@@ -414,6 +414,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -509,8 +510,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -528,8 +528,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "bd328247-c581-4b32-81e5-4e569cb46cd7",
             "zIndex": 4,
+            "id": "bd328247-c581-4b32-81e5-4e569cb46cd7",
             "data": {
               "type": "tm.Text",
               "name": "Local Network Trust Boundary",
@@ -557,6 +557,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -640,7 +641,6 @@
               ]
             },
             "id": "4bb07550-c729-44b3-9399-7eddb86eecf1",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "IoT Local Gateway",
@@ -676,6 +676,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -771,8 +772,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "position": {
@@ -795,6 +795,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -890,8 +891,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 7
+            }
           },
           {
             "position": {
@@ -909,8 +909,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "d60559f6-0fff-4468-baa3-fc593075aaf1",
             "zIndex": 8,
+            "id": "d60559f6-0fff-4468-baa3-fc593075aaf1",
             "data": {
               "type": "tm.Text",
               "name": "Cloud Infrastructure Trust Boundary",
@@ -938,6 +938,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1033,8 +1034,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 9
+            }
           },
           {
             "shape": "flow",
@@ -2624,6 +2624,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2707,7 +2708,6 @@
               ]
             },
             "id": "f3f91b8a-0457-4974-b627-020a276cf9fb",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Centralised Database",
@@ -2744,6 +2744,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2839,8 +2840,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 12
+            }
           },
           {
             "position": {
@@ -2863,6 +2863,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2958,8 +2959,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 13
+            }
           },
           {
             "position": {
@@ -2977,8 +2977,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "8da3c287-773e-4368-89f1-625264577c9e",
             "zIndex": 14,
+            "id": "8da3c287-773e-4368-89f1-625264577c9e",
             "data": {
               "type": "tm.Text",
               "name": "Healthcare Provider Network Trust Boundary",
@@ -3006,6 +3006,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -3089,7 +3090,6 @@
               ]
             },
             "id": "1595c032-0b74-493f-8b84-a9662eabae40",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Hospital IT \nInfrastructure",
@@ -3125,6 +3125,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -3208,7 +3209,6 @@
               ]
             },
             "id": "fbda7fb9-17f9-456d-8ca1-efd91dae6830",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "Clinical Decision Support\n Systems (CDSS)",
@@ -3244,6 +3244,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -3327,7 +3328,6 @@
               ]
             },
             "id": "cdbe8a1f-011b-4a55-8f8d-803d9b7b4d1b",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Healthcare Professional \nWorkstations",
@@ -3358,8 +3358,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "f8d065f0-83a8-472b-b1cf-4e6506851c79",
             "zIndex": 18,
+            "id": "f8d065f0-83a8-472b-b1cf-4e6506851c79",
             "data": {
               "type": "tm.Text",
               "name": "User (Patient) Trust Boundary",
@@ -3387,6 +3387,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -3470,7 +3471,6 @@
               ]
             },
             "id": "bc7ba0d1-8a59-48a3-92c6-7b12f3146f67",
-            "zIndex": 19,
             "data": {
               "type": "tm.Actor",
               "name": "Doctor",
@@ -3503,6 +3503,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -3586,7 +3587,6 @@
               ]
             },
             "id": "f1cd7ab4-8b15-403e-8e0e-e20238d30331",
-            "zIndex": 20,
             "data": {
               "type": "tm.Actor",
               "name": "User (Patient)",
@@ -3619,6 +3619,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -3702,7 +3703,6 @@
               ]
             },
             "id": "be08d384-f6ac-495d-84bf-552e8c530891",
-            "zIndex": 21,
             "data": {
               "type": "tm.Process",
               "name": "Web Portal",
@@ -3738,6 +3738,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -3821,7 +3822,6 @@
               ]
             },
             "id": "845c3242-d541-4e7d-8a95-6a6f4154877f",
-            "zIndex": 22,
             "data": {
               "type": "tm.Process",
               "name": "Wearable Device",
@@ -3857,6 +3857,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -3940,7 +3941,6 @@
               ]
             },
             "id": "6305255e-b4a5-4f1e-bf48-de23be899071",
-            "zIndex": 23,
             "data": {
               "type": "tm.Actor",
               "name": "User (Patient)",
