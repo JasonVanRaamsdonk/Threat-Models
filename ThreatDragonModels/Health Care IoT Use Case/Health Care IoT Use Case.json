@@ -1,0 +1,27 @@
+{
+  "version": "2.3.0-RC2",
+  "summary": {
+    "title": "Health Care IoT Use Case",
+    "owner": "",
+    "description": "In this use case, an IoT-based healthcare system is designed to enable remote patient monitoring. This system facilitates continuous tracking of a patient’s vital health metrics through interconnected medical devices and wearables. The goal is to provide real-time health data to healthcare professionals for timely diagnosis, treatment adjustments, and improved patient care, especially for chronic conditions.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Health Care IoT STRIDE",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0-RC2",
+        "cells": [],
+        "description": "Health Care IoT Use Case"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
